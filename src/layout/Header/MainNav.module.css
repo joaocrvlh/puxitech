@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  gap: clamp(1rem, 2.2vw, 2.25rem);
+}
+
+.link {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  transition: color 0.2s ease;
+}
+
+.link:hover,
+.link[aria-current='page'] {
+  color: var(--color-text);
+}
+
+.link[aria-current='page'] {
+  font-weight: 500;
+}
+
+@media (max-width: 1080px) {
+  .nav {
+    display: none;
+  }
+}
