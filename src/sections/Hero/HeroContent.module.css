@@ -1,0 +1,31 @@
+.title {
+  margin: 1.6rem 0 1.4rem;
+  font-weight: 800;
+  font-size: clamp(2.4rem, 5.1vw, 5.4rem);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.line {
+  display: block;
+}
+
+.accent {
+  color: var(--color-accent);
+}
+
+.lead {
+  max-width: 30rem;
+  margin: 0 0 2.2rem;
+  font-size: clamp(1rem, 1.25vw, 1.15rem);
+  line-height: 1.55;
+  color: var(--color-text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}

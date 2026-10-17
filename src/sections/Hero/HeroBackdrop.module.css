@@ -1,0 +1,10 @@
+.backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(40% 50% at 78% 45%, var(--glow-navy), transparent 70%),
+    radial-gradient(35% 45% at 88% 70%, var(--glow-brown), transparent 70%),
+    radial-gradient(30% 40% at 10% 80%, var(--glow-green), transparent 70%);
+}

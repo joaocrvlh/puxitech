@@ -1,0 +1,16 @@
+.root {
+  display: inline-block;
+}
+
+.window {
+  display: inline-grid;
+  overflow: hidden;
+  padding-block: 0.12em 0.18em;
+  margin-block: -0.12em -0.18em;
+  vertical-align: bottom;
+}
+
+.word {
+  grid-area: 1 / 1;
+  white-space: nowrap;
+}
