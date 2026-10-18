@@ -1,0 +1,8 @@
+.bar {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 60;
+  height: 3px;
+  background: linear-gradient(90deg, var(--logo-green), var(--logo-navy), var(--logo-brown));
+  transform-origin: 0 50%;
+}

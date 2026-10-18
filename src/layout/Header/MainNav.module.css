@@ -10,11 +10,11 @@
 }
 
 .link:hover,
-.link[aria-current='page'] {
+.link[aria-current='true'] {
   color: var(--color-text);
 }
 
-.link[aria-current='page'] {
+.link[aria-current='true'] {
   font-weight: 500;
 }
 

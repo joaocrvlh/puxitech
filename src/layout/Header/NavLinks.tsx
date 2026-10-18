@@ -16,7 +16,7 @@ export function NavLinks({ items, activeHref, className, linkClassName, onNaviga
           <a
             href={href}
             className={linkClassName}
-            aria-current={href === activeHref ? 'page' : undefined}
+            aria-current={href === activeHref ? 'true' : undefined}
             onClick={onNavigate}
           >
             {label}

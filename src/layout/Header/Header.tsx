@@ -1,17 +1,18 @@
 import { motion } from 'motion/react'
 import { CONTACT_HREF, NAV_ITEMS } from '../../data/navigation'
 import { LogoMark } from '../../components/Logo/LogoMark'
-import { ButtonLink } from '../../components/ButtonLink/ButtonLink'
+import { ButtonLink } from '../../components/Button/ButtonLink'
 import { ThemeToggle } from '../../components/ThemeToggle/ThemeToggle'
 import { MainNav } from './MainNav'
 import { MobileMenu } from './MobileMenu'
-import { useActiveHash } from './useActiveHash'
+import { useScrollSpy } from './useScrollSpy'
 import styles from './Header.module.css'
 
 const HOME_HREF = NAV_ITEMS[0].href
+const SECTION_HREFS = NAV_ITEMS.map((item) => item.href)
 
 export function Header() {
-  const activeHref = useActiveHash(HOME_HREF)
+  const activeHref = useScrollSpy(SECTION_HREFS)
 
   return (
     <motion.header
