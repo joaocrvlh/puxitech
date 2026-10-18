@@ -1,0 +1,27 @@
+.stat {
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 1rem;
+  color: var(--band-muted);
+}
+
+.value {
+  margin: 0 0 0.4rem;
+  font-size: clamp(2.4rem, 4.5vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.label {
+  max-width: 22ch;
+  margin: 0;
+  line-height: 1.5;
+  color: var(--band-muted);
+}
