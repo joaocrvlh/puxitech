@@ -21,8 +21,8 @@
 }
 
 .primary {
-  color: var(--color-on-brand);
-  background: var(--gradient-brand);
+  color: var(--color-on-button);
+  background: var(--gradient-button);
 }
 
 .primary:hover {

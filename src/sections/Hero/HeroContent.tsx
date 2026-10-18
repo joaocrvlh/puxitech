@@ -1,6 +1,6 @@
 import { motion } from 'motion/react'
 import { CONTACT_HREF } from '../../data/navigation'
-import { ButtonLink } from '../../components/ButtonLink/ButtonLink'
+import { ButtonLink } from '../../components/Button/ButtonLink'
 import { RotatingWord } from '../../components/RotatingWord/RotatingWord'
 import { rise } from './heroMotion'
 import styles from './HeroContent.module.css'

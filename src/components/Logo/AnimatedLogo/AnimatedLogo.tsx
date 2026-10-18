@@ -1,7 +1,7 @@
 import { useReducedMotion } from 'motion/react'
 import { BRANCHES, LOGO_COLOR, LOGO_LABEL, LOGO_VIEWBOX, WORDMARK } from '../geometry'
 import { TIMELINE } from './timeline'
-import { useTypewriter } from './useTypewriter'
+import { useTypewriter } from '../../../hooks/useTypewriter'
 import { BranchPath } from './BranchPath'
 import { CommitRing } from './CommitRing'
 import { Confluence } from './Confluence'
