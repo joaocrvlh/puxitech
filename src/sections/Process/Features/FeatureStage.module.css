@@ -1,0 +1,14 @@
+.stage {
+  position: sticky;
+  top: calc((100vh + var(--header-height) - min(32vw, 440px)) / 2);
+  display: grid;
+  place-items: center;
+  height: min(32vw, 440px);
+  overflow: hidden;
+  border-radius: 28px;
+  background: linear-gradient(135deg, #dce3ee 0%, #e9e4da 100%);
+}
+
+.slide {
+  width: 82%;
+}

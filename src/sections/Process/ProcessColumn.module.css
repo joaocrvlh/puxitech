@@ -1,0 +1,74 @@
+.column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1.5rem 0;
+  border-left: 1px solid var(--color-border);
+  transition: border-color 0.4s ease;
+}
+
+.column:last-child {
+  border-right: 1px solid var(--color-border);
+}
+
+.column::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  width: 2px;
+  background: var(--color-accent);
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.active::before {
+  transform: scaleY(1);
+}
+
+.number {
+  margin-bottom: 1.25rem;
+  font-size: clamp(2.4rem, 4vw, 3.4rem);
+  font-weight: 400;
+  line-height: 1;
+  color: var(--color-border);
+  transition: color 0.4s ease;
+}
+
+.title {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  opacity: 0.55;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.description {
+  margin: 0 0 2rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  opacity: 0.55;
+  transition: opacity 0.4s ease;
+}
+
+.active .number {
+  color: var(--color-accent);
+}
+
+.active .title {
+  color: var(--color-text);
+  opacity: 1;
+}
+
+.active .description {
+  opacity: 1;
+}
+
+@media (max-width: 760px) {
+  .column {
+    border-right: 1px solid var(--color-border);
+  }
+}

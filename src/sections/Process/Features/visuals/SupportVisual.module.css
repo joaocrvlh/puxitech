@@ -1,0 +1,48 @@
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--brand-green);
+}
+
+.uptime {
+  display: flex;
+  gap: 4px;
+  height: 34px;
+  margin-bottom: 0.6rem;
+}
+
+.ok,
+.warn {
+  flex: 1;
+  border-radius: 3px;
+}
+
+.ok {
+  background: var(--brand-green);
+  opacity: 0.75;
+}
+
+.warn {
+  background: var(--brand-brown);
+}
+
+.update {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.update p {
+  margin: 0;
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: rgba(20, 47, 102, 0.12) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23142f66' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5 9-10'/%3E%3C/svg%3E") center / 55% no-repeat;
+}

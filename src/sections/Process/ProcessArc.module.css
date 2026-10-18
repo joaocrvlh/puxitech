@@ -1,0 +1,59 @@
+.arc {
+  position: relative;
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+.svg {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  margin-inline: auto;
+}
+
+.line {
+  stroke: var(--color-border);
+  transition: stroke 0.4s ease;
+}
+
+.glow {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-bg);
+  color: var(--color-text-muted);
+  translate: -50% 0;
+  transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease, scale 0.4s ease;
+}
+
+.icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.active .line {
+  stroke: var(--color-accent);
+}
+
+.active .glow {
+  opacity: 1;
+}
+
+.active .icon {
+  border-color: var(--color-accent);
+  background: var(--color-accent);
+  color: var(--color-bg);
+  scale: 1.1;
+}
