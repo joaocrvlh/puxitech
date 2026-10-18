@@ -5,8 +5,9 @@
   place-items: center;
   height: min(32vw, 440px);
   overflow: hidden;
+  border: 1px solid var(--color-border);
   border-radius: 28px;
-  background: linear-gradient(135deg, #dce3ee 0%, #e9e4da 100%);
+  background: var(--band-bg);
 }
 
 .slide {
