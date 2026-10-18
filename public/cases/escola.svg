@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#142f66"/><stop offset="1" stop-color="#8a4a30"/></linearGradient>
+    <filter id="s" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000" flood-opacity="0.25"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="1050" cy="120" r="260" fill="#fff" opacity="0.06"/><circle cx="120" cy="820" r="220" fill="#fff" opacity="0.05"/>
+  
+  <g filter="url(#s)">
+    <rect x="150" y="150" width="900" height="600" rx="18" fill="#fff"/>
+    <rect x="150" y="150" width="900" height="44" rx="18" fill="#eef0ec"/>
+    <rect x="150" y="176" width="900" height="18" fill="#eef0ec"/>
+    <circle cx="176" cy="172" r="6" fill="#d9a08a"/><circle cx="196" cy="172" r="6" fill="#e6cf8f"/><circle cx="216" cy="172" r="6" fill="#a9c29a"/>
+    <rect x="250" y="164" width="405" height="16" rx="8" fill="#fff"/>
+  </g>
+    <rect x="150" y="194" width="900" height="120" fill="#142f66" opacity="0.9"/>
+    <circle cx="230" cy="254" r="36" fill="#fff" opacity="0.9"/><rect x="290" y="232" width="260" height="18" rx="9" fill="#fff"/><rect x="290" y="262" width="180" height="12" rx="6" fill="#fff" opacity="0.6"/>
+    <rect x="190" y="345" width="185" height="110" rx="14" fill="#f5f6f3"/><rect x="210" y="368" width="70" height="10" rx="5" fill="#aab1a7"/><text x="210" y="430" font-family="Arial" font-weight="700" font-size="40" fill="#5f7a4c">9,5</text><rect x="400" y="345" width="185" height="110" rx="14" fill="#f5f6f3"/><rect x="420" y="368" width="70" height="10" rx="5" fill="#aab1a7"/><text x="420" y="430" font-family="Arial" font-weight="700" font-size="40" fill="#142f66">8,7</text><rect x="610" y="345" width="185" height="110" rx="14" fill="#f5f6f3"/><rect x="630" y="368" width="70" height="10" rx="5" fill="#aab1a7"/><text x="630" y="430" font-family="Arial" font-weight="700" font-size="40" fill="#8a4a30">9,0</text><rect x="820" y="345" width="185" height="110" rx="14" fill="#f5f6f3"/><rect x="840" y="368" width="70" height="10" rx="5" fill="#aab1a7"/><text x="840" y="430" font-family="Arial" font-weight="700" font-size="40" fill="#5f7a4c">98%</text>
+    
+    <circle cx="208" cy="508" r="18" fill="#5f7a4c" opacity="0.25"/>
+    <rect x="240" y="496" width="451.00000000000006" height="12" rx="6" fill="#cfd4cc"/>
+    <rect x="240" y="516" width="287" height="10" rx="5" fill="#e4e7e1"/>
+    <rect x="920" y="498" width="80" height="22" rx="11" fill="#5f7a4c" opacity="0.18"/>
+    <circle cx="208" cy="570" r="18" fill="#5f7a4c" opacity="0.25"/>
+    <rect x="240" y="558" width="451.00000000000006" height="12" rx="6" fill="#cfd4cc"/>
+    <rect x="240" y="578" width="287" height="10" rx="5" fill="#e4e7e1"/>
+    <rect x="920" y="560" width="80" height="22" rx="11" fill="#5f7a4c" opacity="0.18"/>
+    <circle cx="208" cy="632" r="18" fill="#5f7a4c" opacity="0.25"/>
+    <rect x="240" y="620" width="451.00000000000006" height="12" rx="6" fill="#cfd4cc"/>
+    <rect x="240" y="640" width="287" height="10" rx="5" fill="#e4e7e1"/>
+    <rect x="920" y="622" width="80" height="22" rx="11" fill="#5f7a4c" opacity="0.18"/>
+    <circle cx="208" cy="694" r="18" fill="#5f7a4c" opacity="0.25"/>
+    <rect x="240" y="682" width="451.00000000000006" height="12" rx="6" fill="#cfd4cc"/>
+    <rect x="240" y="702" width="287" height="10" rx="5" fill="#e4e7e1"/>
+    <rect x="920" y="684" width="80" height="22" rx="11" fill="#5f7a4c" opacity="0.18"/>
+</svg>
