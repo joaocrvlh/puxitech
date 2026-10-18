@@ -1,0 +1,35 @@
+.heading {
+  display: grid;
+  justify-items: start;
+  gap: 1.25rem;
+}
+
+.center {
+  justify-items: center;
+  text-align: center;
+}
+
+.title {
+  max-width: 16ch;
+  margin: 0;
+  font-size: clamp(2rem, 4.4vw, 3.8rem);
+  font-weight: 800;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: var(--color-accent);
+}
+
+.description {
+  max-width: 36rem;
+  font-size: clamp(1rem, 1.2vw, 1.1rem);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.description p {
+  margin: 0;
+}

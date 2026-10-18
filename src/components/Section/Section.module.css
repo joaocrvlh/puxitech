@@ -1,0 +1,5 @@
+.section {
+  position: relative;
+  padding: clamp(3rem, 6vw, 5.5rem) var(--gutter);
+  scroll-margin-top: var(--header-height);
+}
