@@ -10,7 +10,7 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={styles.brand}>
         <LogoMark className={styles.logo} />
-        <p className={styles.tagline}>Software sob medida, feito no encontro das águas.</p>
+        <p className={styles.tagline}>Software sob medida.</p>
       </div>
 
       <nav aria-label="Rodapé">
