@@ -9,8 +9,6 @@ export function HeroStage() {
 
   return (
     <motion.div className={styles.stage} {...stageReveal}>
-      <div className={styles.waters} aria-hidden="true" />
-
       <button
         type="button"
         className={styles.replay}
